@@ -1,0 +1,45 @@
+// 主题文件 用来配置统一颜色
+
+$yellow: #FFC73F;
+$white: #fff;
+
+
+$fontNormal: #333;
+$fontLight: #999;
+$fontGray: #666;
+
+
+$borderLight: #e4e4e4;
+$borderNormal: #ccc;
+$borderDark: #b2b2b2;
+
+$inputBg: #f2f2f2;
+
+
+$black: #2E3345;
+$mtBlue: #ff8400;
+$infoBg: #ecf5ff;
+$infoBorder: #c5d8f1;
+
+$orange: #ff9d3c;
+$fontOrange: #FF8D13;
+
+$dangerColor: #f76120;
+$red: #f83654;
+$green: #008713;
+
+$grey: #888888;
+$lightGrey: #e2e2e2;
+$fontGrey: #555555;
+
+$formBorder: #ccc;
+
+
+
+//超出$width的就显示...
+@mixin word-limit($width) {
+    max-width: $width;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
